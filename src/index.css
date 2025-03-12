@@ -1,0 +1,105 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F3F3F3;
+}
+
+.bg-primary-custom {
+  background-color: #6477DB;
+}
+
+.sidebar-wrapper {
+  position: relative;
+  width: 340px;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: white;
+  color: gray;
+  position: absolute;
+  top: -3rem;
+  border-radius: 0.8rem;
+  width: 310px;
+}
+
+.sidebar .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 200px;
+}
+
+.sidebar .profile .badge {
+  background-color: #6477DB;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+
+}
+
+.sidebar .nav-link {
+  color: white;
+  padding: 15px 20px;
+  border-radius: 100px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #6478db38;
+  border-radius: 100px;
+}
+
+.sidebar .nav-link.active {
+  background-color: #6478db38;
+  border-radius: 100px;
+}
+
+.login-container {
+  height: 86vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.login-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content-wrapper {
+  margin-left: 340px;
+  padding: 1.8rem;
+  width: calc(100% - 340px);
+}
+
+.content {
+  min-height: 86vh;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+.bg-black {
+  background-color: #000;
+  color: white;
+}
+
+.banner-font {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) { 
+  .banner-font {
+    font-size: 5rem;
+  }
+ }
